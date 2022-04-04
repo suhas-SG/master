@@ -1,0 +1,70 @@
+html
+{
+    background-color: rgb(145, 229, 152);
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+      
+}
+h3{
+    font-size: 40px;
+    font-weight: 5px;
+    text-align: center;
+}
+ul > li { color: blue ; }
+.list
+{
+    position: relative;
+    left: 600px;
+    color: brown;
+   
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.flex > div {
+    height: 40px;
+    width: 60px;
+    background-color: hotpink;
+    color: chartreuse;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+p{ font-size: 28px; color: tomato; }
+
+.img{ padding: 20px; position: relative; left: 400px;
+ }
+ 
+ .link{ height: 40px; width: 100px; background-color: burlywood; justify-content: center; padding: 2px; border: 2px solid black; text-align: center; position: relative; left: 535px; }
+.link:hover {
+    background-color: brown;
+}
+.tabel { justify-content: center; text-align: center; border: 2px solid black; border-collapse: collapse; position: relative; left: 400px;  padding: 20px;}
+
+th,td {border: 2px solid black;
+text-align: center;
+justify-content: center; padding: 5px;}
+
+.form {
+    padding: 30px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.form > textarea {
+   background-color: crimson;
+    color: blue;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form > textarea:hover {
+    
+    background-color: black;
+   
+}
